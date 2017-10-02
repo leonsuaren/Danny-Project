@@ -1,0 +1,42 @@
+div {
+    display: flex;
+    flex-direction: column;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 740px;
+}
+
+.container {
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888888;
+    background: #003459;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 130px;
+}
+
+.inputSearch {
+    width: 500px;
+    height: 60px;
+    border-radius: 5px;
+    box-shadow: 1px;
+    font-size: 1.5em;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+    color: #000025;
+}
+
+.labelSearch {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8em;
+    color: #FFFFFF;
+    margin-right: 20px;
+}

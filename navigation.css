@@ -1,0 +1,84 @@
+
+/************GLOBAL STYLE**************/
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 10%;
+}
+
+/************NAVIGATION STYLE***********/
+
+nav {
+    background: #003459;
+    margin: 0 0 1px 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*box-shadow: 10px 10px 5px #888888;*/
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    padding: 10px 40px;
+    font-family: 'Raleway', sans-serif;
+    /*margin: 3px;*/
+}
+
+.active {
+    color: #00A7E1;
+    border: 2px solid #00A7E1;
+}
+
+/***********SECTION ONE STYLE*************/
+
+.sectionOne {
+    background: #FFFFFF;
+    padding: 2px 0;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.photoDanny {
+    width: 150px;
+    height: 150px;
+    padding-right: 30px;
+}
+
+.dannyName {
+    color: #CECEFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em; 
+}
+
+.slogan {
+    color: #CECEFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sectionContact a {
+    color: #CECEFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+/***********SECTION TWO STYLE*************/
+
+.contactLink {
+    color: #000000;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+}
+.sectionContact {
+    display: flex;
+}
+
+.temporal {
+    height: 1000px
+}
