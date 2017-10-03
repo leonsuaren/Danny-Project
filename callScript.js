@@ -47,6 +47,13 @@ $(document).ready(function() {
                              });
   });
   $(".sectionContact").sticky({topSpacing:60});
+    
+     $('.caroucel').slick({
+    autoplay: true,
+    fade: true,
+    dots: true,
+    arrows: false
+  });
 
 });
 
