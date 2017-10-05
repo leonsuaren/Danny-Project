@@ -27,34 +27,37 @@ $(document).ready(function() {
     responsiveWidth: true
     });
   $(".header").on('sticky-start', function () {
-    $(".header").css({"background": "#00A7E1", "transition": "3s"});
+    $(".header").css({"background": "#809EBF", "transition": "3s"});
     $('.active').css({"border": "1", "border-style": "solid",
-    "border-style": "solid", "border-color": "#003459","color": "#003459",
+    "border-style": "solid", "border-color": "#382860","color": "#382860",
      "transition": "3s"});
-    $(".sectionContact").css({"background": "#003459", 
-                              "font-color": "#FFFFFF",
-                              "transition": "3s"
+    $('#buy, #sell').css({"color": "#382860"})
+    $(".sectionContact").css({"background": "#382860", 
+                              "font-color": "#382860",
+                              "transition": "3s"    
                              });
-  });
+  }); //END STICKY STAR
    $(".header").on('sticky-end', function () {
-    $(".header").css({"background": "#00A7E1#003459", "transition": "3s"});
+    $(".header").css({"background": "#382860",
+                      "font-color": "#382860", 
+                      "transition": "3s"});
     $('.active').css({"border": "1", "border-style": "solid",
-    "border-style": "solid", "border-color": "#00A7E1","color": "#00A7E1",
+    "border-style": "solid", "border-color": "#809EBF","color": "#809EBF",
      "transition": "3s"});
+       $('#buy, #sell').css({"color": "#809EBF"})
        $(".sectionContact").css({"background": "#FFFFFF", 
                               "color": "#CECECE",
                               "transition": "3s"
                              });
-  });
+  }); //END STICKY END
   $(".sectionContact").sticky({topSpacing:60});
-    
+    $(".sectionContactResponsive").sticky({topSpacing:148});
      $('.caroucel').slick({
     autoplay: true,
     fade: true,
     dots: true,
     arrows: false
   });
-
 });
 
 //  $(document).ready(function(){
