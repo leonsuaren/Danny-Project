@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0 10%;
+    padding: 0 0;
 }
 
 /************NAVIGATION STYLE***********/
@@ -39,7 +39,6 @@ a {
 .sectionOne {
     background: #FFFFFF;
     padding: 2px 0;
-    height: 150px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -47,20 +46,21 @@ a {
 }
 
 .photoDanny {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     padding-right: 30px;
 }
 
 .dannyName {
     color: #809EBF;
     font-family: 'Raleway', sans-serif;
-    font-size: 2em; 
+    font-size: 1.2em; 
 }
 
 .slogan {
     color: #809EBF;
     font-family: 'Raleway', sans-serif;
+    font-size: .8em;
 }
 
 .sectionContact a {
@@ -80,6 +80,52 @@ a {
     display: flex;
 }
 
-.temporal {
-    height: 1000px
+
+/************CAROUCEL*********************/
+
+.slides {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 460px;
 }
+
+.slideOneDiv {
+    background: #382860;
+}
+
+.slideThreeDiv {
+    background: #809EBF;
+}
+
+.slideOne {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #809EBF;
+    font-size: 7em;
+    height: 220px;
+    text-align: center;
+}
+
+.slideTwo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #809EBF;
+    font-size: 7em;
+    height: 220px;
+}
+
+.slideThree {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #382860;
+    font-size: 7em;
+    height: 220px;
+}
+
+
+
+
