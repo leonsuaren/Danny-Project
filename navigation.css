@@ -10,7 +10,7 @@ body {
 /************NAVIGATION STYLE***********/
 
 nav {
-    background: #003459;
+    background: #382860;
     margin: 0 0 1px 0;
     height: 60px;
     display: flex;
@@ -21,7 +21,7 @@ nav {
 
 a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #809EBF;
     font-size: 1.2em;
     padding: 10px 40px;
     font-family: 'Raleway', sans-serif;
@@ -29,8 +29,8 @@ a {
 }
 
 .active {
-    color: #00A7E1;
-    border: 2px solid #00A7E1;
+    color: #809EBF;
+    border: 2px solid #809EBF;
 }
 
 /***********SECTION ONE STYLE*************/
@@ -52,25 +52,25 @@ a {
 }
 
 .dannyName {
-    color: #CECEFF;
+    color: #809EBF;
     font-family: 'Raleway', sans-serif;
     font-size: 2em; 
 }
 
 .slogan {
-    color: #CECEFF;
+    color: #809EBF;
     font-family: 'Raleway', sans-serif;
 }
 
 .sectionContact a {
-    color: #CECEFF;
+    color: #809EBF;
     font-family: 'Raleway', sans-serif;
 }
 
 /***********SECTION TWO STYLE*************/
 
 .contactLink {
-    color: #000000;
+    color: #809EBF;
     font-size: 1em;
     font-family: 'Raleway', sans-serif;
     margin: auto;
