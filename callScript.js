@@ -36,6 +36,10 @@ $(document).ready(function() {
                               "font-color": "#382860",
                               "transition": "3s"    
                              });
+    $(".sectionContactResponsive").css({"background": "#382860", 
+                              "font-color": "#382860",
+                              "transition": "3s"    
+                             });
   }); //END STICKY STAR
    $(".header").on('sticky-end', function () {
     $(".header").css({"background": "#382860",
@@ -49,15 +53,37 @@ $(document).ready(function() {
                               "color": "#CECECE",
                               "transition": "3s"
                              });
+       $(".sectionContactResponsive").css({"background": "#FFFFFF", 
+                              "color": "#CECECE",
+                              "transition": "3s"
+                             });
   }); //END STICKY END
-  $(".sectionContact").sticky({topSpacing:60});
-    $(".sectionContactResponsive").sticky({topSpacing:148});
-     $('.caroucel').slick({
+  $(".sectionContact").sticky({topSpacing:60}); // CALL STICK FOR CONTACT
+    $(".sectionContactResponsive").sticky({topSpacing:150});
+    // CALL CAROUCEL 
+    $('.caroucel').slick({
     autoplay: true,
     fade: true,
     dots: true,
     arrows: false
-  });
+  }); // END CAROUCEL
+    $( function() {
+    $( "#dialog" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "fade",
+        duration: 1000
+      }
+    });
+ 
+    $( "#opener" ).on( "click", function() {
+      $( "#dialog" ).dialog( "open" );
+    });
+  } )
 });
 
 //  $(document).ready(function(){
