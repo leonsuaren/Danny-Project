@@ -219,54 +219,91 @@ a {
     display: flex;
     flex-direction: column;
     padding: 0 10%;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .articles h3 {
-    color: #83A0A0;
-    font-family: 'Raleway', sans-serif;
+/*    border: 2px solid;*/
+    padding: 20px;
+    margin: 0
 }
 
-.divArticles {
+.article-Container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+    border: 2px /solid;
 }
 
-.divArticles div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    border-top: 1px solid #83A0A0;
-}
-/*
-
-img {
-    width: 200px;
+.photo-container {
+	text-align: center;
+	margin-bottom: 1em;
+    width: 290px;
     height: 200px;
 }
-*/
 
-/*
-.kitchenImg img {
-    max-width: 100%;
+.photo {
+	position: relative;
+	line-height: 0;
+	overflow: hidden;
+    margin-right: 10px;
 }
-*/
-
-.divArticles div h4 {
-    align-self: center;
-    font-family: 'Raleway', sans-serif;
-    color: #FFF;
-    font-size: 1.1em;
+.photo-container img {
+ 	max-width: 100%;
 }
 
-.articleLink {
-    font-family: 'Raleway', sans-serif;
-    font-size: .8em;
-    color: #FFF;
+.photo-overlay {
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0; 
+	left: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0,0,0, .65);
 }
 
+.button {
+	color: #fff;
+	width: 65%;
+    height: 20%;
+	font-weight: 400;
+    font-size: 1em;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: rgba(74,137,202, .65);
+	padding: 15px 0;
+	border-radius: .5em;
+	margin: 0;
+	position: relative;
+    transition-duration: .5s;
+}
+
+.button:hover {
+    background: #D36A62;
+}
+
+.button:active {
+    background: #A33830;
+}
+
+.btn-icon {
+	opacity: 0;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url('../img/download.svg');
+	position: absolute;
+	left: 45%;
+	top: 27%;
+}
 /********FOOTER********/
 
 footer {
