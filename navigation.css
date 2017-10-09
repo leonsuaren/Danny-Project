@@ -1,5 +1,9 @@
 
 /************GLOBAL STYLE**************/
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -47,9 +51,10 @@ a {
 }
 
 .photoDanny {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 85px;
     padding-right: 30px;
+    margin-bottom: 0px;
 }
 
 .dannyName {
@@ -62,21 +67,31 @@ a {
     color: #809EBF;
     font-family: 'Raleway', sans-serif;
     font-size: .8em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
-.sectionContact a {
-    color: #809EBF;
-    font-family: 'Raleway', sans-serif;
-/*    background: #CECECE;*/
+.sign {
+    display: flex;
+    flex-direction: row;
+}
+
+.signInLink, .signOutLink {
+    font-size: .8em;
+    margin: 10px 5px;
+    padding: 0;
 }
 
 /***********SECTION TWO STYLE*************/
 
 .contactLink {
+    display: flex;
+    justify-content: center;
+    background: #EEEEEE;
+    width: 100%;
     color: #809EBF;
     font-size: 1em;
     font-family: 'Raleway', sans-serif;
-    margin: auto;
 }
 
 .contactLinkResponsive {
@@ -96,16 +111,6 @@ a {
     align-content: center;
     height: 460px;
 }
-
-/*
-.slideOneDiv {
-    background: #FFFFFF;
-}
-
-.slideThreeDiv {
-    background: #FFFFFF;
-}
-*/
 
 .slideOne {
     display: flex;
@@ -147,7 +152,7 @@ a {
     justify-content: space-between;
     margin: auto;
     padding: 0 10%;
-    height: 400px;
+    height: 600px;
 }
 
 .sectionDiv {
@@ -185,6 +190,28 @@ a {
     background: black;  
 }
 
+.marketImg {
+    width: 300px;
+}
+
+.businessImg {
+    width: 300px;
+    height: 240px;
+}
+
+.worldImg {
+    width: 300px;
+    height: 240px;
+}
+
+/*
+.anim:hover {
+    width: 305px;
+    height: 245px;
+    transition-duration: .5s;
+}
+*/
+
 
 /*******SMALL ARTICLES******/
 
@@ -213,20 +240,31 @@ a {
     align-content: center;
     border-top: 1px solid #83A0A0;
 }
+/*
+
+img {
+    width: 200px;
+    height: 200px;
+}
+*/
+
+/*
+.kitchenImg img {
+    max-width: 100%;
+}
+*/
 
 .divArticles div h4 {
     align-self: center;
     font-family: 'Raleway', sans-serif;
-    color: #83A0A0;
+    color: #FFF;
     font-size: 1.1em;
-    border-bottom: 1px solid #83A0A0;
 }
 
 .articleLink {
     font-family: 'Raleway', sans-serif;
     font-size: .8em;
-    text-align: justify;
-    color: #83A0A0;
+    color: #FFF;
 }
 
 /********FOOTER********/
