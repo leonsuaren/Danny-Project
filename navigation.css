@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
+
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0 10%;
     padding: 0 0;
-    background: #EEEEEE;
 }
 
 /************NAVIGATION STYLE***********/
@@ -110,13 +110,14 @@ a {
     justify-content: center;
     align-content: center;
     height: 460px;
+    background: ;
 }
 
 .slideOne {
     display: flex;
     justify-content: center;
     align-content: center;
-    color: #83A0A0;
+    color: #382860;
     font-size: 7em;
     height: 220px;
     text-align: center;
@@ -126,7 +127,7 @@ a {
     display: flex;
     justify-content: center;
     align-content: center;
-    color: #83A0A0;
+    color: #382860;
     font-size: 7em;
     height: 220px;
 }
@@ -135,7 +136,7 @@ a {
     display: flex;
     justify-content: center;
     align-content: center;
-    color: #83A0A0;
+    color: #382860;
     font-size: 7em;
     height: 220px;
 }
@@ -234,6 +235,7 @@ a {
     justify-content: space-between;
     padding: 1%;
     border: 2px /solid;
+    z-index: -1;
 }
 
 .photo-container {
@@ -267,6 +269,13 @@ a {
 	justify-content: center;
 	align-items: center;
 	background: rgba(0,0,0, .65);
+    opacity: 0;
+    transition-duration: .5s;
+    transition-property: opacity;
+}
+
+.photo-overlay:hover {
+    opacity: 1;
 }
 
 .button {
@@ -284,10 +293,11 @@ a {
 	margin: 0;
 	position: relative;
     transition-duration: .5s;
+/*    transition-property: background;*/
 }
 
 .button:hover {
-    background: #D36A62;
+    background: #D36A52;
 }
 
 .button:active {
